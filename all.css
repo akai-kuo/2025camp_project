@@ -282,6 +282,7 @@ time {
     justify-content: center;
     align-items: start;
     width: calc(50vw - 12px);
+    padding: 12px;
 }
 
 .new_article_intro{
