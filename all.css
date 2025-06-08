@@ -73,6 +73,7 @@ a {
 }
 
 time {
+  display: block;
   margin-bottom: 4px;
 }
 
@@ -178,7 +179,7 @@ time {
 }
 
 /*banner 響應式設計 */
-@media (max-width: 768px) {
+@media (max-width: 986px) {
     .banner-photo,
     .banner-introduce {
         width: 100%;
@@ -287,6 +288,21 @@ time {
     max-width: 636px;
 }
 
+/*最新文章 響應式設計 */
+@media (max-width: 768px) {
+    .new_article img,
+    .new_article_content {
+        width: 100%;
+    }
+
+    .new_article {
+        flex-direction: column;
+        height: auto;
+    }
+
+
+}
+
 /* 搜尋欄 */
 .search-wrapper {
     display: flex;
@@ -365,55 +381,7 @@ time {
   border: solid 1px black;
 }
 
-.page_number {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 8px 20px;
-  width: 328px;
-  border-radius: 40px;
-  background-color: #ffffff;
-}
-
-.page_item_s{
-  display: flex;
-  width: 24px;
-  height: 24px;
-  justify-content: center;
-  align-items: center;
-}
-
-.page_item_l{
-  display: flex;
-  width: 40px;
-  height: 40px;
-  justify-content: center;
-  align-items: center;
-}
-
-.last_page{
-  color: #4b4b4b;
-}
-
-.this_page{
-  color: #0027d5;
-}
-
-.page_number a{
-  color: #4b4b4b;
-}
-
-.page_number a:hover{
-  background: #4b4b4b;
-  color: white;
-}
-
-.page_etc{
-    color: #4b4b4b;
-}
-
-/* 頁碼 */
+/* 分頁 */
 .pagination{
     margin: 0 auto 80px;
     width: fit-content;
@@ -450,13 +418,12 @@ time {
 
 /* 聯絡 */
 .contact{
-    max-width: 1296px;
+    max-width: 1320px;
     margin: 0 auto;
+    padding: 80px 12px;
     display: flex;
     justify-content: space-between;
     gap: 24px;
-    padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 .mailto{

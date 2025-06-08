@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -87,6 +87,7 @@ src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-ca
                     <input type="search" name="keyword" id="searchinput" placeholder="搜尋你感興趣的文章">
                 </label>
             </div>
+            <!-- blog list主要部分 -->
             <ul class="blog_list">
                 <li class="blog_content">
                     <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/refs/heads/main/2025-web-camp/desktop/blog/photo4.png" alt="React入門不再迷惘">
@@ -378,73 +379,52 @@ src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-ca
                     </a>
                 </li>
             </ul>
-            <ul class="page_number">
-                <li class="page_item_s">
-                    <p class="last_page">
-                        <
-                    </p>
-                </li>
-                <li class="page_item_l">
-                    <p class="this_page">
-                        1
-                    </p>
-                </li>
-                <li class="page_item_l">
-                    <a href="#" class="other_page">
-                        2
-                    </a>
-                </li>
-                <li class="page_item_l">
-                    <a href="#" class="other_page">
-                        3
-                    </a>
-                </li>
-                <li class="page_item_l">
-                    <a href="#" class="other_page">
-                        4
-                    </a>
-                </li>
-                <li class="page_item_l">
-                    <a href="#" class="other_page">
-                        5
-                    </a>
-                </li>
-                <li class="page_item_l">
-                    <p class="page_etc">
-                        ...
-                    </p>
-                </li>
-                <li class="page_item_s">
-                    <a href="#" class="next_page">
-                        >
-                    </a>
-                </li>
-            </ul>
+            <!-- 分頁 -->
+            <nav class="pagination" aria-label="分頁導覽">
+                <ul class="pagination-list">
+                    <li>
+                        <a href="#" class="page-arrow">
+                            <img src="https://raw.githubusercontent.com/thekihonim/codepen-assets/refs/heads/main/chevron-left.svg" alt="上一頁">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="page-link active">
+                            1
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="page-link">
+                            2
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="page-link">
+                            3
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="page-link">
+                            4
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="page-link">
+                            5
+                        </a>
+                    </li>
+                    <li>
+                        <span class="page-ellipsis">
+                            …
+                        </span>
+                    </li>
+                    <li>
+                        <a href="#" class="page-arrow">
+                            <img src="https://raw.githubusercontent.com/thekihonim/codepen-assets/refs/heads/main/chevron-right.svg" alt="下一頁">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-                    <nav class="pagination" aria-label="分頁導覽">
-            <ul class="pagination-list">
-                <li>
-                    <a href="#" class="page-arrow">
-                        <img src="https://raw.githubusercontent.com/thekihonim/codepen-assets/refs/heads/main/chevron-left.svg" alt="上一頁">
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="page-link active">1</a>
-                </li>
-                <li><a href="#" class="page-link">2</a></li>
-                <li><a href="#" class="page-link">3</a></li>
-                <li><a href="#" class="page-link">4</a></li>
-                <li><a href="#" class="page-link">5</a></li>
-                <li>
-                    <span class="page-ellipsis">…</span>
-                </li>
-                <li>
-                    <a href="#" class="page-arrow">
-                        <img src="https://raw.githubusercontent.com/thekihonim/codepen-assets/refs/heads/main/chevron-right.svg" alt="下一頁">
-                    </a>
-                </li>
-            </ul>
-        </nav>
     </div>
 
 
